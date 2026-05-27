@@ -1,0 +1,6 @@
+{
+  "name": "Accessibility AI Layout & Cost Analytics Dashboard",
+  "description": "An interactive workspace to simulate academic text linearization and translation for TTS engines, paired with cost and caching analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

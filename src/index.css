@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #f27d26;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #050505;
+  color: #e0e0e0;
+  font-family: var(--font-sans);
+}
+
+/* Custom glow borders and orange styling */
+.glow-orange {
+  box-shadow: 0 0 12px rgba(242, 125, 38, 0.4);
+}
+
+.glow-orange-sm {
+  box-shadow: 0 0 8px rgba(242, 125, 38, 0.25);
+}
+
+.mask-fade-bottom {
+  mask-image: linear-gradient(to bottom, black 0%, black 75%, transparent 100%);
+}
